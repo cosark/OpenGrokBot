@@ -169,6 +169,10 @@ Every other setting — listen address, idle stop, per-computer limits, timeouts
 
 In a slow-network region: for Docker, build with a mirror — `docker build --build-arg APT_MIRROR=mirrors.aliyun.com …` (or `mirrors.huaweicloud.com`, `mirrors.tuna.tsinghua.edu.cn`); for a local computer that has to download its browser, set `OPENGROKBOT_BROWSER_MIRROR=https://cdn.npmmirror.com/binaries/playwright`.
 
+## One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/OpenGrokBot/)
+
 ## Security is the point, not a footnote
 
 The loudest objection to hosted always-on agents: an agent that never sleeps, holding all your credentials, on
